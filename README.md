@@ -1,7 +1,11 @@
 
 # 2-Bit ALU with 7-Segment Display Decoder
 
-This project implements a 2-bit Ripple Carry Adder (ALU) connected to an 8-bit output 7-segment display decoder in Verilog. The entire system is modularly designed and fully verified via behavioral simulation.
+## Problem Statement
+
+The goal of this project is to implement a structural 2-bit full adder (ALU) that takes inputs $A$, $B$, and $C_{in}$, outputs a 3-bit result, and passes it through a 7-segment decoder to drive a hardware display unit.
+
+![Problem Statement Block Diagram](problem_statement.png)
 
 ## System Architecture
 
